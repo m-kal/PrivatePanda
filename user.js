@@ -13,6 +13,7 @@ user_pref( 'geo.enabled', false);
 user_pref( 'geo.wifi.uri', '');
 
 /* Major Settings */
+user_pref( 'loop.enabled', false );
 user_pref( 'privacy.donottrackheader.enabled', true );
 
 /* SafeBrowsing Overrides */
