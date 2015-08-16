@@ -90,6 +90,13 @@ user_pref( 'services.sync.prefs.sync.privacy.clearOnShutdown.passwords', true );
 user_pref( 'services.sync.prefs.sync.privacy.clearOnShutdown.sessions', true );
 user_pref( 'services.sync.prefs.sync.privacy.clearOnShutdown.siteSettings', true );
 
+/* Pocket */
+user_pref( 'browser.pocket.api', '' );
+user_pref( 'browser.pocket.enabled', false );
+user_pref( 'browser.pocket.oAuthConsumerKey', '' );
+user_pref( 'browser.pocket.site', '' );
+user_pref( 'browser.toolbarbuttons.introduced.pocket-button', false );
+
 /* Misc */
 user_pref( 'browser.search.suggest.enabled', false );
 user_pref( 'browser.search.defaultenginename', 'DuckDuckGo' );
@@ -104,3 +111,4 @@ user_pref( 'dom.event.clipboardevents.enabled', false );
 user_pref( 'dom.storage.enabled', false );
 user_pref( 'dom.storage.default_quota', false );
 user_pref( 'dom.popup_maximum', 1 );
+user_pref( 'devtools.theme', 'dark' );
